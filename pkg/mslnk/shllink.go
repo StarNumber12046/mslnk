@@ -6,7 +6,7 @@ import (
 )
 
 type ShellLink struct {
-	ShellLinkHeader  header
+	ShellLinkHeader  InternalHeader
 	LinkTargetIDList LinkTargetIDList
 	LinkInfo         LinkInfo
 	StringData       StringData
